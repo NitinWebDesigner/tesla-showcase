@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Discover Tesla’s complete vehicle lineup, from Model S to Cybertruck. Explore design evolution, performance highlights, and next-generation electric innovation."
+    />
+    <title>Tesla Lineup | Model Evolution & Performance</title>
+
+    <!-- bootstrap icon link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+
+    <!-- bootstrap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- custom css link -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <!-- favicon -->
+    <link rel="icon" href="images/logo.png" />
+  </head>
+  <body>
+    <header class="main-header position-sticky z-3 top-0">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand logo" href="index.html"> TESLA </a>
+
+          <button
+            class="navbar-toggler border-0 shadow-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Model S</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Model 3</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Model X</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Model Y</a>
+              </li>
+            </ul>
+
+            <a href="#" class="explore-btn"> View Models </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+    <section id="hero-banner">
+      <div class="hero-image">
+        <img
+          src="images/banner.avif"
+          alt="Tesla vehicle lineup banner"
+          class="img-fluid"
+        />
+      </div>
+
+      <div class="hero-content container">
+        <span class="hero-subtitle"> Tesla Lineup 2026 </span>
+        <h1>Designed for Performance, Built for the Future</h1>
+        <p>
+          Explore Tesla’s evolving range of electric vehicles, combining
+          intelligent technology, long-range capability, and modern design.
+        </p>
+        <div class="hero-btns">
+          <a href="#" class="primary-btn"> Explore Models </a>
+
+          <a href="product-detail.html" class="secondary-btn"> View Details </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="model-showcase" class="py-5">
+      <div class="container">
+        <!-- Heading -->
+
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-7">
+            <span
+              class="text-uppercase text-danger fw-semibold small d-block mb-3"
+            >
+              Tesla Collection
+            </span>
+
+            <h2 class="display-5 fw-semibold mb-3">
+              Explore the Vehicle Lineup
+            </h2>
+
+            <p class="text-secondary mb-0">
+              Browse Tesla models by year and discover performance, intelligent
+              technology, and modern electric mobility.
+            </p>
+          </div>
+        </div>
+
+        <!-- Search -->
+
+        <div class="row justify-content-center mb-4">
+          <div class="col-lg-8">
+            <input
+              type="text"
+              class="form-control border-0 shadow-sm rounded-pill"
+              id="modelSearch"
+              placeholder="Search models..."
+            />
+          </div>
+        </div>
+
+        <!-- Year Tabs -->
+
+        <div class="year-navigation mb-5">
+          <button class="year-tab active" data-year="all">All</button>
+
+          <button class="year-tab" data-year="2026">2026</button>
+
+          <button class="year-tab" data-year="2025">2025</button>
+
+          <button class="year-tab" data-year="2024">2024</button>
+
+          <button class="year-tab" data-year="2023">2023</button>
+
+          <button class="year-tab" data-year="2022">2022</button>
+
+          <button class="year-tab" data-year="2021">2021</button>
+        </div>
+
+        <!-- Cards -->
+
+        <div class="row g-4">
+          <!-- Card 1 -->
+
+          <div
+            class="col-xl-3 col-lg-4 col-md-6 model-item"
+            data-name="Model S"
+            data-year="2026"
+          >
+            <div class="vehicle-card">
+              <div class="vehicle-image">
+                <img
+                  src="images/car_one.avif"
+                  alt="Tesla Model S"
+                  class="img-fluid"
+                />
+
+                <span class="vehicle-year"> 2026 </span>
+              </div>
+
+              <div class="vehicle-content">
+                <div>
+                     <span class="vehicle-price">
+         Starting at $79,990
+      </span>
+                  <h3>Model S</h3>
+
+                  <p>
+                    Premium electric sedan designed for performance, intelligent
+                    range, and modern driving technology.
+                  </p>
+                </div>
+
+                <a href="product-detail.html" class="vehicle-btn"> View Details </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+
+          <div
+            class="col-xl-3 col-lg-4 col-md-6 model-item"
+            data-name="Model 3"
+            data-year="2025"
+          >
+            <div class="vehicle-card">
+              <div class="vehicle-image">
+                <img
+                  src="images/car_two.avif"
+                  alt="Tesla Model 3"
+                  class="img-fluid"
+                />
+
+                <span class="vehicle-year"> 2025 </span>
+              </div>
+
+              <div class="vehicle-content">
+                <div>
+                     <span class="vehicle-price">
+         Starting at $56,990
+      </span>
+                  <h3>Model 3</h3>
+
+                  <p>
+                    Compact electric vehicle balancing efficiency, comfort, and
+                    intelligent mobility, Racing Efforts.
+                  </p>
+                </div>
+
+                <a href="product-detail.html" class="vehicle-btn"> View Details </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+
+          <div
+            class="col-xl-3 col-lg-4 col-md-6 model-item"
+            data-name="Model X"
+            data-year="2024"
+          >
+            <div class="vehicle-card">
+              <div class="vehicle-image">
+                <img
+                  src="images/car_three.avif"
+                  alt="Tesla Model X electric SUV front view"
+                  class="img-fluid"
+                />
+
+                <span class="vehicle-year"> 2024 </span>
+              </div>
+
+              <div class="vehicle-content">
+                <div>
+                         <span class="vehicle-price">
+         Starting at $87,990
+      </span>
+                  <h3>Model X</h3>
+
+                  <p>
+                    Spacious electric SUV built with premium interiors,
+                    intelligent safety systems, and extended driving range.
+                  </p>
+                </div>
+
+                <a href="product-detail.html" class="vehicle-btn"> View Details </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+
+          <div
+            class="col-xl-3 col-lg-4 col-md-6 model-item"
+            data-name="Model Y"
+            data-year="2023"
+          >
+            <div class="vehicle-card">
+              <div class="vehicle-image">
+                <img
+                  src="images/car_four.avif"
+                  alt="Tesla Model Y"
+                  class="img-fluid"
+                />
+
+                <span class="vehicle-year"> 2023 </span>
+              </div>
+
+              <div class="vehicle-content">
+                <div>
+                         <span class="vehicle-price">
+         Starting at $45,990
+      </span>
+                  <h3>Model Y</h3>
+
+                  <p>
+                    Versatile electric crossover designed for everyday
+                    flexibility, comfort, and long-range travel.
+                  </p>
+                </div>
+
+                <a href="product-detail.html" class="vehicle-btn"> View Details </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+
+          <div
+            class="col-xl-3 col-lg-4 col-md-6 model-item"
+            data-name="Cybertruck"
+            data-year="2022"
+          >
+            <div class="vehicle-card">
+              <div class="vehicle-image">
+                <img
+                  src="images/car_five.avif"
+                  alt="Tesla Cybertruck"
+                  class="img-fluid"
+                />
+
+                <span class="vehicle-year"> 2022 </span>
+              </div>
+
+              <div class="vehicle-content">
+                <div>
+                         <span class="vehicle-price">
+         Starting at $77,990
+      </span>
+                  <h3>Cybertruck</h3>
+
+                  <p>
+                    Futuristic electric pickup engineered for durability,
+                    utility, and high-performance capability.
+                  </p>
+                </div>
+
+                <a href="product-detail.html" class="vehicle-btn"> View Details </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+
+          <div
+            class="col-xl-3 col-lg-4 col-md-6 model-item"
+            data-name="Roadster"
+            data-year="2021"
+          >
+            <div class="vehicle-card">
+              <div class="vehicle-image">
+                <img
+                  src="images/car_six.avif"
+                  alt="Tesla Roadster"
+                  class="img-fluid"
+                />
+
+                <span class="vehicle-year"> 2021 </span>
+              </div>
+
+              <div class="vehicle-content">
+                <div>
+                         <span class="vehicle-price">
+         Starting at $89,990
+      </span>
+                  <h3>Roadster</h3>
+
+                  <p>
+                    High-performance electric sports car focused on
+                    acceleration, speed, and next-generation engineering.
+                  </p>
+                </div>
+
+                <a href="product-detail.html" class="vehicle-btn"> View Details </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== INNOVATION SECTION ===== -->
+
+    <section id="innovation-section" class="py-5">
+      <div class="container">
+        <!-- Heading -->
+
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-lg-7">
+            <span
+              class="text-uppercase text-danger fw-semibold small d-block mb-3"
+            >
+              Tesla Innovation
+            </span>
+
+            <h2 class="display-5 fw-semibold mb-3">
+              Built Around Intelligent Performance
+            </h2>
+
+            <p class="text-secondary mb-0">
+              Tesla vehicles combine advanced technology, long-range capability,
+              and intelligent engineering to redefine modern mobility.
+            </p>
+          </div>
+        </div>
+
+        <!-- Features -->
+
+        <div class="row g-4">
+          <!-- Feature Card -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="innovation-card">
+              <div class="innovation-icon">
+                <i class="bi bi-lightning-charge-fill"></i>
+              </div>
+
+              <h3>Long Range Battery</h3>
+
+              <p>
+                Optimized battery technology delivers extended driving range
+                with improved energy efficiency.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature Card -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="innovation-card">
+              <div class="innovation-icon">
+                <i class="bi bi-car-front-fill"></i>
+              </div>
+
+              <h3>Autopilot Intelligence</h3>
+
+              <p>
+                Advanced driver assistance systems enhance safety, awareness,
+                and real-time navigation support.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature Card -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="innovation-card">
+              <div class="innovation-icon">
+                <i class="bi bi-battery-charging"></i>
+              </div>
+
+              <h3>Fast Charging</h3>
+              <p>
+                High-speed charging infrastructure enables convenient
+                long-distance electric travel.
+              </p>
+            </div>
+          </div>
+
+          <!-- Feature Card -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="innovation-card">
+              <div class="innovation-icon"><i class="bi bi-laptop"></i></div>
+
+              <h3>Smart Interior</h3>
+
+              <p>
+                Minimal cabin design integrated with intelligent displays and
+                connected vehicle controls.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA SECTION ===== -->
+
+    <section id="cta-section" class="w-100 py-5">
+      <div class="container">
+        <div class="cta-wrapper">
+          <div class="row align-items-center g-4">
+            <!-- Left Content -->
+            <div class="col-lg-7">
+              <span
+                class="text-uppercase text-danger fw-semibold small d-block mb-3"
+              >
+                Tesla Experience
+              </span>
+
+              <h2 class="fw-semibold mb-3">Experience Electric Performance</h2>
+
+              <p class="text-secondary mb-0">
+                Explore Tesla’s intelligent vehicle lineup designed for
+                performance, efficiency, and modern mobility.
+              </p>
+            </div>
+            <!-- Right Buttons -->
+            <div class="col-lg-5">
+              <div class="cta-btn-group">
+                <a href="#" class="btn vehicle-btn"> Explore Models </a>
+
+                <a href="#" class="btn btn-outline-dark cta-outline-btn">
+                  Learn More
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </main>
+
+    <!-- ===== FOOTER ===== -->
+
+    <footer id="main-footer" class="mt-5 overflow-hidden">
+      <div class="container">
+        <div class="row g-5 justify-content-between">
+          <!-- Brand -->
+
+          <div class="col-lg-4">
+            <a href="#" class="footer-logo"> TESLA </a>
+
+            <p class="footer-text">
+              Explore Tesla’s intelligent electric vehicle lineup designed for
+              performance, innovation, and modern mobility.
+            </p>
+          </div>
+
+          <!-- Menu -->
+
+          <div class="col-lg-3">
+            <h3 class="footer-title">Navigation</h3>
+
+            <ul class="footer-links">
+              <li>
+                <a href="#"> Model S </a>
+              </li>
+
+              <li>
+                <a href="#"> Model 3 </a>
+              </li>
+
+              <li>
+                <a href="#"> Model X </a>
+              </li>
+
+              <li>
+                <a href="#"> Model Y </a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Social -->
+
+          <div class="col-lg-3">
+            <div class="footer-social-wrapper">
+              <h3 class="footer-title">Follow Tesla</h3>
+
+              <div class="footer-socials">
+                <a href="#">
+                  <i class="bi bi-instagram"></i>
+                </a>
+
+                <a href="#">
+                  <i class="bi bi-twitter-x"></i>
+                </a>
+
+                <a href="#">
+                  <i class="bi bi-youtube"></i>
+                </a>
+
+                <a href="#">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Bottom -->
+
+        <div class="footer-bottom">
+          <p>© 2026 Tesla Showcase. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

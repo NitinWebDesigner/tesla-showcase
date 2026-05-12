@@ -1,0 +1,261 @@
+
+
+@media (max-width: 1199px) {
+  .vehicle-content h3 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: #ffffff;
+    padding: 20px;
+    border-top: 1px solid #ececec;
+    z-index: 999;
+  }
+
+  .navbar-nav {
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+
+  .explore-btn {
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+  }
+  #hero-banner {
+    height: 85vh;
+  }
+
+  .hero-content h1 {
+    font-size: 40px;
+  }
+
+  .hero-content p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  #model-showcase {
+    padding: 80px 0 !important;
+  }
+
+  #model-showcase h2 {
+    font-size: 42px;
+  }
+
+  .vehicle-image img {
+    height: 240px;
+  }
+
+  .vehicle-content {
+    min-height: auto;
+  }
+
+  #cta-section {
+    padding: 80px 0;
+  }
+
+  .cta-wrapper {
+    padding: 40px;
+  }
+
+  .cta-wrapper h2 {
+    font-size: 38px;
+  }
+
+  .cta-btn-group {
+    justify-content: flex-start;
+  }
+     .footer-nav{
+        align-items: flex-start;
+    }
+}
+
+@media (max-width: 767px) {
+  #model-showcase {
+    padding: 70px 0 !important;
+  }
+
+  /* Heading */
+
+  #model-showcase h2 {
+    font-size: 34px;
+    line-height: 1.2;
+  }
+
+  #model-showcase p {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+
+  /* Search */
+
+  #modelSearch {
+    height: 54px;
+
+    font-size: 14px;
+
+    padding: 0 20px;
+  }
+
+  /* Tabs */
+
+  .year-navigation {
+    justify-content: start;
+
+    padding-bottom: 6px;
+  }
+
+  .year-tab {
+    min-width: auto;
+
+    padding: 0 20px;
+
+    height: 42px;
+
+    font-size: 13px;
+  }
+
+  /* Cards */
+
+  .vehicle-card {
+    border-radius: 22px;
+  }
+
+  .vehicle-image img {
+    height: 220px;
+  }
+
+  .vehicle-content {
+    padding: 22px;
+  }
+
+  .vehicle-content h3 {
+    font-size: 24px;
+
+    margin-bottom: 12px;
+  }
+
+  .vehicle-content p {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+
+  .vehicle-btn {
+    height: 48px;
+
+    font-size: 13px;
+
+    margin-top: 20px;
+  }
+
+  .innovation-card {
+    padding: 30px 24px;
+  }
+
+  .innovation-card h3 {
+    font-size: 22px;
+  }
+
+  .innovation-icon {
+    width: 64px;
+    height: 64px;
+
+    font-size: 24px;
+  }
+
+  #cta-section {
+    padding: 70px 0;
+  }
+
+  .cta-wrapper {
+    padding: 32px 24px;
+  }
+
+  .cta-wrapper h2 {
+    font-size: 30px;
+
+    line-height: 1.2;
+  }
+
+  .cta-btn-group {
+    flex-direction: column;
+
+    align-items: stretch;
+  }
+
+  .cta-btn-group .btn {
+    width: 100%;
+  }
+  
+    #main-footer{
+        padding-top: 70px;
+    }
+
+    .footer-logo{
+        font-size: 28px;
+    }
+
+    .footer-title{
+        font-size: 20px;
+    }
+
+    .footer-bottom{
+        margin-top: 50px;
+    }
+    .specs-table td{
+        padding: 18px;
+    }
+
+    .article-img{
+        height: 220px;
+    }
+
+}
+
+@media (max-width: 576px) {
+  .hero-content {
+    padding: 0 18px;
+  }
+
+  .hero-content h1 {
+    font-size: 32px;
+  }
+
+  .hero-btns {
+    flex-direction: column;
+  }
+
+  .primary-btn,
+  .secondary-btn {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  #model-showcase h2 {
+    font-size: 28px;
+  }
+
+  .vehicle-image img {
+    height: 200px;
+  }
+
+  .vehicle-content {
+    padding: 20px;
+  }
+
+  .vehicle-content h3 {
+    font-size: 22px;
+  }
+}
